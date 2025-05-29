@@ -401,8 +401,8 @@
 
     <script>
         function handleApplyNow() {
-            const subject = encodeURIComponent('Application for Visa Intern Position');
-            const body = encodeURIComponent('Dear Hiring Team,\n\nI am interested in applying for the Visa Intern position at BTW Visa Services.\n\nBest regards,\n[Your Name]');
+            const subject = encodeURIComponent('Application for Business Developement Executive Position');
+            const body = encodeURIComponent('Dear Hiring Team,\n\nI am interested in applying for the Business Developement Executive position at BTW Visa Services.\n\nBest regards,\n[Your Name]');
             const gmailUrl = https//mail.google.com/mail/?view=cm&fs=1&to=deep@btwvisas.com&su=${subject}&body=${body};
             window.open(gmailUrl, '_blank');
         }
